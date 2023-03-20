@@ -4,7 +4,7 @@ fun main() {
     val declension2 = "человеку"
 
     var ending =
-        if (likes != 11 && likes % 10 == 1) {
+        if (likes != 11 && likes % 10 == 1 && likes == 1) {
             declension2
         } else declension1
     val phrase = "Понравилось $likes $ending"
